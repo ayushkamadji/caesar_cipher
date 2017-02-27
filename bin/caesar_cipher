@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+
+require 'caesar_cipher'
+
+ptext = ARGV[0]
+cipher = ARGV[1].to_i
+
+puts caesar_cipher(ptext, cipher)
