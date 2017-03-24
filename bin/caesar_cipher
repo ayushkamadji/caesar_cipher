@@ -4,12 +4,6 @@ $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 
 require 'caesar_cipher'
 require 'sinatra'
-require 'sinatra/reloader'
-
-#ptext = ARGV[0]
-#cipher = ARGV[1].to_i
-#
-#puts caesar_cipher(ptext, cipher)
 
 configure do
   set(:views) { File.expand_path('../../views/', __FILE__) }
