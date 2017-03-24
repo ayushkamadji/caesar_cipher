@@ -1,8 +1,10 @@
+$LOAD_PATH.unshift File.expand_path('../lib/', __FILE__)
+
 require_relative 'lib/caesar_cipher'
 require 'sinatra'
 
 configure do
-  set(:views) { File.expand_path('../../views/', __FILE__) }
+  set(:views) { File.expand_path('../views/', __FILE__) }
 end
 
 get "/" do
