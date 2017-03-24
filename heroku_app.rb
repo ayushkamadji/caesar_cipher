@@ -1,6 +1,6 @@
 $LOAD_PATH.unshift File.expand_path('../lib/', __FILE__)
 
-require_relative 'lib/caesar_cipher'
+require 'caesar_cipher'
 require 'sinatra'
 
 configure do
