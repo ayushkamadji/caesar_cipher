@@ -1,8 +1,5 @@
 # USAGE
 
-`$ bundle install --path ./bundle`
+    `$ bin/caesar_cipher
 
-`$ bin/caesar_cipher [PLAINTEXT] [CIPHER]`
-
-### Testing:
-`$ rake`
+Then open localhost:4567/ in browser
